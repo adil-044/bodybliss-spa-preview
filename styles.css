@@ -17,6 +17,8 @@
   --ease-spring: cubic-bezier(0.34, 1.56, 0.64, 1);
 }
 
+.logo img { object-fit: contain; border-radius: 6px; }
+
 *, *::before, *::after { box-sizing: border-box; }
 
 html.lenis, html.lenis body { height: auto; }
